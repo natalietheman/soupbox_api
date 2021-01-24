@@ -1,6 +1,11 @@
 # Soupbox API
 Provides API methods for soupBox application
 
+## How to Run
+1. Clone repository `$ git clone [repo url]`
+2. Start server `node server.js`
+
+## Layout
 ### Routes
 * General syntax: `app.METHOD(PATH, HANDLER)`
    * If route matches path on server, the handler function is executed
